@@ -228,3 +228,51 @@
     color: #333;
     margin: 0 5px;
   }
+
+  .Contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  p.question {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .Contact label {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .Contact input[type="text"],
+  .Contact input[type="email"],
+  .Contact textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .Contact button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .Contact button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
